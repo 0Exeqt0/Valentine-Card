@@ -1,0 +1,116 @@
+
+
+
+.button {
+    position: relative;
+    background:pink;
+    border-radius: 25px;
+    border: none;
+    font-size: 28px;
+    color: red;
+    padding: 20px;
+    width: 100px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .button:after {
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+  }
+  
+  .button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
+  .button1 {
+    position: relative;
+    background:pink;
+    border-radius: 25px;
+    border: none;
+    font-size: 28px;
+    color: red;
+    padding: 20px;
+    width: 100px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .button1:after {
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+  }
+  
+  .button1:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
+
+  body {
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/785/470/534/couple-love-heart-romantic-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    overflow: hidden;
+  }
+      h1{
+        
+        position: relative;
+        font-size: 30pt;
+        color: #eb3486;
+        animation-name: fontChange;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+      }
+      
+      @keyframes fontChange {
+        0% {
+          font-family: 'Major Mono Display', monospace;
+        }
+        20% {
+          font-family: 'Kaushan Script', cursive;
+        }
+        40% {
+          font-family: 'Lobster', cursive;
+        }
+        60% {
+          font-family: 'Ranchers', cursive;
+        }
+        80% {
+          font-family: 'Bitter', serif;
+        }
+        100% {
+          font-family: 'Major Mono Display', monospace;
+        }
+  }

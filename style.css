@@ -1,0 +1,29 @@
+@import url('ttps://fonts.googleapis.com/css2?family=Estonia&family=Montagu+Slab:wght@600&display=swap');
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Estonia', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1242px;
+    max-height: 699px;
+    height: 100vh;
+    background: rgb(2,2,2);
+}
+p
+{
+    font-size: 10px;
+    line-height: 10px;
+    text-align: justify;
+    background-image: url('https://scontent.fcgy2-2.fna.fbcdn.net/v/t1.15752-9/248308394_4927202090624276_8458782566721573719_n.png?_nc_cat=105&ccb=1-5&_nc_sid=ae9488&_nc_eui2=AeG8ATBQRbD6-4e8Cjyg4VtV4MACzmHX6efgwALOYdfp539yV7ZTEbE3GDSRjo4nRZmfk19J4uwAkNQx26qFolpG&_nc_ohc=raG-gCYoLZYAX-_gxra&_nc_ht=scontent.fcgy2-2.fna&oh=52e5a736c3f7aace7c3562ed69893884&oe=61BC27EF');
+    background-size: auto ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    -webkit-backgroud-size: cover;
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0.00001);
+}
