@@ -235,6 +235,11 @@ Main Components
   line-height: 10vh;
   text-align: center;
 }
+.message{
+  font-style: italic;
+  line-height: 7vh;
+  text-align: center;
+}
 .btn{
   font-size: 30px;
   text-align: center;
