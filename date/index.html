@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+  	
+	<title>Date?</title>
+</head>
+<!-- hijacking: on/off - animation: none/scaleDown/rotate/gallery/catch/opacity/fixed/parallax -->
+
+<body data-hijacking="off" data-animation="scaleDown">
+	<section class="cd-section visible">
+		<div>
+			<center>
+				<div class="container">
+					<audio controls autoplay>
+						<source src="horse.ogg" type="audio/ogg">
+						<source src="justthewayyouare.mp3" type="audio/mpeg">
+						
+					  </audio>
+					  <img src="https://media.tenor.com/peSEPfmGL6MAAAAd/kitty-music.gif" class = "center" alt="Computer man" style="width:50%;height:50%;">
+					  <p1>
+						play the music before you proceed
+						<br>
+						hope you'll apreciate 
+					  </p1>
+					  
+					  </div>
+				
+</div>
+		</div>
+	</section>
+
+	<section class="cd-section">
+		<div>
+			<div class ="container">
+				<img src="https://media.tenor.com/fjc9zJsBzJEAAAAC/monge-hds-toguro.gif" class = "center" alt="Computer man" style="width:30%;height:30%;">
+				<h1>wanna see my 10% of what i can do?</h1>
+<button onclick="typeWriter()">Click me</button>
+
+<p id="demo"></p>
+
+<script>
+var i = 0;
+var txt = 'hello po, i hope your day went well. As the sun rays shows at sunrise it reflects how you give different colors into my life. You brighten up my world and as the sun sets you turn gold. Even at my darkest nights you give a million lights. Just like the moon you also have different phases i see your imperfections yet i still see how beautiful you are. you are the the only one that can make me appreciate these because Everyday these heavenly Bodies shows even after my last day but i can say having u right now, enjoying every moment of it makes this lifetime of mine rare';
+var speed = 50;
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("demo").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+</script>
+</center>
+		</div>
+	</section>
+
+	<section class="cd-section">
+		<div>
+			
+			<div class="panel">
+    
+				<div class="wrapper">
+					<div class="container">
+						<p id="question"> Do you want to go out with me?</p>
+						<button class="btn" id ="YES">YES</button>
+						<button class="btn" id ="NO">NO</button>
+
+					</div>
+					<img src="https://media.tenor.com/X40nTvLaHi0AAAAC/please-begging.gif" class = "center" alt="Computer man" style="width:50%;height:70%;">
+				   </div>
+		</div>
+
+	</section>
+
+	<section class="cd-section">
+		<div>
+			<img src="https://i0.wp.com/codemyui.com/wp-content/uploads/2017/10/pulsating-heart-animation.gif?fit=880%2C440&ssl=1" alt="Computer man" style="width:100%;height:100%;">
+		</div>
+	</section>
+
+	<section class="cd-section">
+		<div>
+			<img src="https://codemyui.com/wp-content/uploads/2017/08/i-love-you-animation.gif" alt="Computer man" style="width:100%;height:100%;">
+		</div>
+	</section>
+<script>
+    const noBtn = document.getElementById('NO');
+    const yesBtn = document.getElementById('YES');
+    const ques = document.getElementById('question');
+    noBtn.addEventListener("click", ()=>{
+        let rand =Math.floor(Math.random()*(150) + 1);
+        let rand2 =Math.floor(Math.random()*(-150) + 1);
+        noBtn.style.transform = "translate("+rand+"px,"+rand2+"px)";
+        
+    });
+    yesBtn.addEventListener("click", ()=>{
+        ques.innerHTML = "Congratulations! you are having date with Mr. Camposagrado"
+    })
+    </script>
+	<nav>
+		<ul class="cd-vertical-nav">
+			<li><a href="#0" class="cd-prev inactive">Next</a></li>
+			<li><a href="#0" class="cd-next">Prev</a></li>
+		</ul>
+	</nav> 
+
+<script src="js/jquery-2.1.4.js"></script>
+<script src="js/velocity.min.js"></script>
+<script src="js/velocity.ui.min.js"></script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+</body>
+</html>
